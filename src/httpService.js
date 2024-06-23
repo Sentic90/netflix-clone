@@ -2,7 +2,7 @@ import axios from "axios";
 // import { toast } from "react-toastify";
 // import logger from "./logService";
 
-const apiUrl = import.meta.env.VITE_API_URL || "https://api.themoviedb.org/3";
+const apiUrl = import.meta.env.VITE_API_URL;
 axios.defaults.baseURL = apiUrl;
 // interceptor will intercept every incomoing || outgoing Request
 // axios.interceptors.response.use(null, (error) => {
