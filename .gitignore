@@ -1,4 +1,8 @@
 # env
+build/
+.firebase/
+.firebase
+firebase.json
 .env
 .env.production
 .env.development
