@@ -2,16 +2,12 @@ import React, { useEffect, useState } from "react";
 
 import httpService from "./httpService";
 import Requests from "./Requests";
+import { getRandomNumber } from "./utils";
 import "./Banner.css";
 const Banner = () => {
   const [movie, setMovie] = useState({});
   const trucate = (string, n) => {
     return string?.length > n ? string.substr(0, n - 1) + "..." : string;
-  };
-
-  const getRandomNumber = (length) => {
-    // return Math.floor(Math.random() * length - 1);
-    return 11;
   };
 
   useEffect(() => {

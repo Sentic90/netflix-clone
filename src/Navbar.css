@@ -32,7 +32,7 @@
 
 .nav__avatar {
     cursor: pointer;
-
+    border-radius: 50%;
     position: fixed;
     right: 20px;
     width: 30px;
